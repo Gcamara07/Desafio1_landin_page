@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <title>Landing Page Arquitetura</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!--Cabeçalho-->
+    <header id="Cabeçalho">
+        <div >
+            <h1 id="tituloCabeçalho">Tradição em projetos de arquitetura</h1>
+            <p id="paragrafoCabeçalho">Arquitetura residencial e comercial. </p>
+
+        </div>
+    </header> 
+
+    <!--informaçoes-->
+    <div id="informaçoes">
+         <div id="infs-1">
+             <h1 id="inf-1">850</h1>
+             <p id="paragrafo-1">empreendimentos construídos</p>
+         </div> 
+
+         <div id="infs-2">
+             <h1 id="inf-2">40</h1>
+            <p id="paragrafo-2">anos de mercado e experiência</p>
+         </div>
+         <div id="infs-3">
+             <h1 id="inf-3">2,000,000</h1>
+             <p id="paragrafo-3">m² em projetos construídos</p>
+         </div>
+        
+    </div>
+
+    <!--Menu de Fotos-->
+    <div id="Sobre-Nos">
+        <div id="sobre">
+
+             <h1 id="Titulo_Sobre">Arquitetos com História e Experiência</h1>
+             <p id="Paragrafo-sobre">Nós realizamos desde 2002 projetos e gerenciamento de obras. <br> Com mais de 800 projetos e 2.000.000 de m² construídos, tendo <br> como principal proposta transformar em realidade os sonhos de <br>seus clientes, criando projetos personalizados, unindo a tradição <br>e a modernidade em nossos projetos.</p>
+             
+        </div>   
+        <img id="imagen" src="./imagens/arq.svg" alt="">
+    </div>
+
+    <!--formulario-->
+    <div id="Formulario">
+        <h1 id="titulo_Formulario">Conheça mais sobre nossos serviços:</h1>
+
+        <form action="https://api.sheetmonkey.io/form/a7dhb7cHfkQvZgurUzAVQn" method="post">
+
+             <input id="Nome-form" type="text" placeholder="Nome" name="Name" required ><br>
+             <input id="Email-form" type="email" placeholder="E-Mail" name="Email" required ><br>
+             <input type="hidden" name="Created" value="x-sheetmonkey-current-date-time" />
+             <button id="botao" type="submit" >Fale Conosco</button><br>
+             
+
+        </form>
+
+    </div>
+
+
+  <script src="index.js"></script>
+</body>
+</html>
